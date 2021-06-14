@@ -52,7 +52,7 @@ mongoose.connect(process.env.MONGODB_URI, connectOptions, function(error){
           if(err) {
             console.error('Error inserting items: ' + err);
           } else {
-            console.dir('Items loaded.');
+            console.dir('Items loaded test.');
           }
         });
       } else {
